@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Testing
+coverage/
+
+# Blockchain specific
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Hardhat files
+cache/
+artifacts/
+
+# Starknet specific
+*.cairo.json
+starknet-artifacts/
+
+# Misc
+.DS_Store
+*.pem
+.vercel
